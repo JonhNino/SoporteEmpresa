@@ -1,0 +1,92 @@
+/* Encabezado Rojo */
+#encabezado{
+    background: #fc0404; 
+    width: 100%;
+    height: 20px;  
+}
+.TituloEnca{    
+    font-family:  Tahoma, sans-serif;
+    font-size:15px;
+    margin-left: 80px;
+}
+.TituloEnca2{    
+    font-family:  Tahoma, sans-serif;
+    font-size:15px;
+    
+}
+#selector{
+    margin-top: 0%;
+}
+#Wpp{
+    color:green;
+    
+}
+#Face{
+    color:Blue;
+    
+}
+#Insta{
+    color: rgb(107, 3, 64);
+    
+}
+#Twit{
+    color: white;
+    
+}
+/* Cuerpo */
+body{
+    background: url(/Img/chat5.jpeg);
+}
+/* Titulo Central */
+#titulo{
+    color: #000000; 
+    transform: translate(50%,00%);
+    text-decoration-style: solid; 
+}
+
+/* Barra de seleccion de Pestañas */
+#selector{
+    background: #000000;
+    width: 100%;
+    height: 50px;
+    
+}
+#Logo{
+    width: 50px;
+    height: 50px;
+}
+
+/* Para el Containner del Chatbot */
+
+.card-header{
+    color:rgb(47, 47, 173);
+    background: url(/Img/TituloChat3.jpeg);
+    border: 1px solid black;
+}
+
+.card-body{
+    background-color:chartreuse;
+    border: 1px solid black;
+}
+
+.form-group1{
+    background-color:aqua;
+    border: 1px solid black;
+}
+
+.form-control{
+    border: 1px solid black;
+}
+
+/* Pie De Pagina */
+#PiedePag{
+    background: black;
+    width: 100%;
+    height: 20px;  
+}
+.CopyPiedePag{    
+    font-family:  Tahoma, sans-serif;
+    font-size:15px;
+}
+
+/* el punto . se utliza para manejar a toda una clase y # solo para un objeto en especifico */

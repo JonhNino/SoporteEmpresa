@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap');
+
+/* Encabezado Rojo */
+#encabezado{
+    background: #fc0404;
+    width: 100%;
+    height: 20px;
+}
+.TituloEnca{
+    font-family:  Tahoma, sans-serif;
+    font-size:15px;
+    margin-left: 80px;
+}
+.TituloEnca2{
+    font-family:  Tahoma, sans-serif;
+    font-size:15px;
+
+}
+#selector{
+    margin-top: 0%;
+}
+#Wpp{
+    color:green;
+
+}
+#Face{
+    color:Blue;
+
+}
+#Insta{
+    color: rgb(107, 3, 64);
+
+}
+#Twit{
+    color: white;
+
+}
+/* Cuerpo */
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: url(/Img/Footer.jpeg);
+}
+#titulo{
+    color: #000000; 
+    transform: translate(50%,00%);
+    text-decoration-style: solid; 
+}
+/* Login */
+.login-container {
+    height: 500px;
+    width: 850px;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    display: flex;/* Colocar un elemento al lado del otro */
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.login-info-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
+    padding-top: 1rem;
+    background-color:floralwhite;
+}
+.image-container{
+    width: 50%; 
+    padding: 2rem;
+    background-color:beige;
+    box-sizing: border-box;
+}
+.title{
+    text-transform: capitalize; /*Poner las primeras letras de cada palabra en mayuscula */
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:black;
+}
+
+.social-login{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly; /*Para repartir el espacio */
+}
+.social-login-element{
+    width:12.5rem;;
+    height: 3.75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.social-login-element img {
+    width: 1.875rem;;
+    height: 1.875rem;
+    position: relative;
+    top: 0;
+    left: -.625rem;    
+}
+
+.social-login-element:hover{
+    background: #fff;
+    cursor: pointer;
+}
+
+.login-info-container >p{
+    font-size: 1.25em;
+    margin-top: 1.5em;
+}
+
+.inputs-container{
+    
+    height: 55%;
+    width : 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input, .btn { 
+    width: 90%;
+    height: 3.125rem;
+    font-size: 1em;
+}
+
+.input {
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.input:hover{
+    border: 2px solid black;
+}
+
+.btn{
+    width: 80%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    background-color: purple;
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+}
+
+.inputs-container p{
+    margin: 0;
+}
+
+.span {
+    color: lightpink;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Pie De Pagina */
+#PiedePag{
+    background: black;
+    width: 100%;
+    height: 20px;
+}
+.CopyPiedePag{
+    font-family:  Tahoma, sans-serif;
+    font-size:15px;
+}
+
+
+/* el punto . se utliza para manejar a toda una clase y # solo para un objeto en especifico */

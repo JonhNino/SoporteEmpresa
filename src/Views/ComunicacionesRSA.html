@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"><!--estandar de caracteres que se va a utlizar (ñ ch tildes o carateres especiales )   -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Compatible con que navegadores   -->
+    <meta name="viewport" content="width=460 , initial-scale=1.0"><!--acncho del dispositivo donde se puede visualizar la pag.  -->
+    <title><%=title %></title><!--El titulo de la pagina  -->
+<!--espacio para herramientas o plugins necesarios para esta pag   -->
+
+    <!-- BOOTSS 4 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- estilo google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    
+    <!-- CUstom CSS PErsonalizado -->
+    <link rel="stylesheet" href="/CSS/ComunicacionesRSA.css"><!--Incluyo el arhivo css Home tipo de archivo stylesheet href ruta de archivo -->
+<!-- Animaciones -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style> 
+        body {
+        font-family: 'Spicy Rice',cursive;
+    }
+    </style>
+</head>
+
+<body> <!--Aqui van los componentes de la Pg  -->
+    <div class="Containerh1 text-left  text-white " id="encabezado">
+        <h1 class="TituloEnca "> Nos encontramos a tu servicio 24/7. Contactanos al <i class="fas fa-phone"></i> 068-0000000 <i class="fab fa-whatsapp" id="Wpp"></i> 300-0000-000. Buscanos tambien en <i class="fab fa-facebook "id="Face"></i>  <i class="fab fa-twitter "id="Twit"></i> y <i class="fab fa-instagram"id="Inst"></i></h1  >
+            
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="selector">
+        <div class="container">
+            <a class="navbar-brand" href="/ComunicacionesRSA"><img id="Logo" src="/Img/Logo3.1.png">  Comunicaciones RSA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="" href="/Index"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="" href="/ChatBot"><i class="fab fa-telegram"></i> Chat Bot</a>
+                    </li>
+                </ul>
+                <span class="navbar-text " aria-current="">
+                    <i class="fas fa-user-ninja assistive-listening-systems"></i> Bienvenido a nuestra Empresa de Comunicaciones a tu Servicio
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <h3 class="titulo text-center text-white"> Bienvenido a ComunicacionesRSA</h3>
+    
+    <!-- Para el Menu! -->
+    <div class="ContainerMenuIMa" id="MenuIMa">
+        
+            <div class="left">
+                <nav id="navbar-example3" class="navbar navbar-light flex-column align-items-stretch p-3">
+                    <a class="navbar-brand text-warning" href="#">¿Quienes somos?</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link text-black" href="#item-1">1) Historia</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1 text-white" href="#item-1-1">1.1) Historia de las comunicaciones en Colombia.</a>
+                            <a class="nav-link ms-3 my-1 text-white" href="#item-1-2">1.2) Historia de Comunicaciones RSA.</a>
+                        </nav>
+                        <a class="nav-link text-black" href="#item-2">2) ¿Quienes Somos? ¿Que Hacemos?.</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1 text-white" href="#item-3-1">3.1) ¿Quienes Somos?.</a>
+                            <a class="nav-link ms-3 my-1 text-white" href="#item-3-2">3.2) ¿Que Hacemos?. </a>
+                        </nav>
+                        <a class="nav-link text-black" href="#item-3">3) Mision-Vision</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1 text-white" href="#item-3-1">3.1) Mision</a>
+                            <a class="nav-link ms-3 my-1 text-white" href="#item-3-2">3.2) Vision</a>
+                        </nav>
+                    </nav>
+                </nav>   
+            </div>
+            
+        <figure class="figure">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active">
+                                    <img src="/Img/Slice1.jpg" class="d-block w-100" alt="bootstrap" width="620px" height="450px">
+                                    <div class="carousel-caption d-none d-md-block text-black">
+                                        <h5>Primer Imagen</h5>
+                                        <p id="MensajeDia">El telégrafo hidráulico fue utilizado por Eneas el Táctico.</p>
+                                    </div>  
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/Img/Slice2.jpg" class="d-block w-100" alt="..." width="620px" height="450px">
+                                    <div class="carousel-caption d-none d-md-block text-black">
+                                        <h5>Segunda Imagen</h5>
+                                        <p id="MensajeDia">En 1792 se instaló en Francia una red de telégrafos ópticos.</p>
+                                    </div>  
+                                </div>
+                                <div class="carousel-item carousel-item-left">
+                                    <img src="/Img/Slice3.jpg" class="d-block w-100" alt="..." width="620px" height="450px">
+                                    <div class="carousel-caption d-none d-md-block text-black">
+                                        <h5>Tercera Imagen</h5>
+                                        <p id="MensajeDia">fue el primer sistema de grabación y reproducción de sonido que utilizó un disco plano, a diferencia del fonógrafo que grababa sobre un cilindro. .</p>
+                                    </div>    
+                                </div>
+                                <div class="carousel-item carousel-item-left">
+                                    <img src="/Img/Slice4.jpg" class="d-block w-100" alt="..." width="620px" height="450px">
+                                    <div class="carousel-caption d-none d-md-block text-black">
+                                        <h5>Cuarta Imagen</h5>
+                                        <p id="MensajeDia">La realidad virtual es un concepto introducido por la industria del entretenimiento y es una larga promesa que ha empezado a cumplirse, en parte, en los últimos tiempos..</p>
+                                    </div>    
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"  data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"  data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <figcaption class="PieImagenes text-info">Fig.1. Las Comunicaciones a Traves de los años.</figcaption>
+        </figure>
+        
+    </div> 
+    
+    <div data-bs-spy="scroll text-center" data-bs-target="#navbar-example3 " data-bs-offset="0" tabindex="0" id="Scroll">
+        <h4 id="item-1 ">1) Historia</h4>
+        <p class="Texto">Las primeras tecnologías usadas en la comunicación usaban las señales visuales como las almenaras o las señales de humo, o acústicas como mediante el uso de tambores o cuernos.1​
+
+            El dramaturgo griego Esquilo (525-456 a. C.) relata en su obra Agamenón como, en torno al 1000 a. C., se comunicó a la ciudad de Argos la victoria sobre Troya mediante estaciones repetidoras que eran capaces de transmitir en una noche.3​ También el historiador griego Polibio (204-122 a. C.) explica otro ejemplo de comunicaciones a larga distancia, el telégrafo hidráulico, que según cuenta fue desarrollado por Eneas el Táctico en el siglo iv a. C..4​5​ Consistía en dos cubas de agua provistas de sendos grifos y, sumergida de forma vertical, una tablilla con los signos y señales que se deseaban transmitir. El emisor alertaba al receptor con antorchas el momento en el que ambos debían abrir y cerrar el agua, de tal forma que el nivel del agua indicaba qué mensaje de la tablilla se deseaba transmitir.4​
+            Sin embargo, estas primeras manifestaciones técnicas no dieron como resultado sistemas de telecomunicación reales, sino que hasta la Edad Contemporánea no se inventaron formas para realizar comunicaciones a distancia. Fue el correo postal, en sus diferentes manifestaciones, el que asumió el papel de comunicar a las personas durante casi toda la historia.6​
+            
+            Más reciente es el uso de los telégrafos ópticos, considerado el primer sistema de telecomunicación moderno al permitir codificar mensajes que no habían sido prefijados con anterioridad; hasta entonces, se transmitían mensajes sencillos, como 'peligro' o 'victoria', sin la posibilidad de dar detalles o descripciones. Se trataba de unas estructuras provistas de brazos móviles que, mediante cuerdas y poleas, adoptaban diferentes posiciones con las que codificar el mensaje.7​ Aunque fue Robert Hooke quien, en 1684, presentó a la Royal Society un primer diseño detallado de un telégrafo óptico,8​9​ no fue hasta principios del siglo xix en Francia cuando se implementó de una forma eficaz. Fue durante la Revolución francesa, cuando existían en el país una necesidad importante de poder transmitir las órdenes de una forma eficaz y rápida,9​ cuando el ingeniero Claude Chappe y sus hermanos instalaron 556 telégrafos ópticos que cubrían una distancia de casi 5000 kilómetros.7​ La primera línea, de 22 torres y 230 kilómetros, se dispuso en 1792 entre París y Lille,10​ y en 1794, transmitió la noticia de la victoria francesa en Condé-sur-l'Escaut</p>
+            <figure class="figure" id="telegrafo">
+                <img src="/Img/Telegrafo.jpg" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="PieImagenes text-info ">Fig.1. Telegrafo Electroquimico de Somerring usaba la electricidad de una pila Voltaica.</figcaption>
+            </figure>
+            <h5 id="item-1-1">1.1) Historia de las comunicaciones en Colombia</h5>
+        <p class="Texto">En Colombia se entiende por comunicación toda transmisión, emisión o recepción de signos, señales, escritos, imágenes y sonidos, o información de cualquier naturaleza, por hilo, radio, medios visuales u otros sistemas electromagnéticos.
+            Por tal motivo desde mediados del siglo XX, con la llegada de la radiodifusión, de la televisión, y posteriormente de la televisión en color; se han dictado disposiciones por parte del Gobierno Nacional y del Congreso de la República para asegurar el desarrollo y acceso de todos los colombianos a los mismos.
+            Las Comunicaciones en Colombia son reguladas dentro de las funciones del Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia y la Comisión de Regulación de Comunicaciones (CRC).
+            Hasta la década de 1990 el estado colombiano ejercía un monopolio en el campo de las telecomunicaciones. La televisión y la telefonía, como antes la telegrafía, estaba en manos del estado quien en algunos casos confería licencias a los particulares para su utilización. A partir de la constitución de 1991 y de la ola de desregulación de la década de 1990 en el mundo, la nación conserva la soberanía sobre el espacio electromagnético pero permite que los particulares tomen una mayor participación en los diferentes servicios de telecomunicaciones.</p>
+            <figure class="figure">
+                <img src="/Img/LineadeTiempo.png" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="PieImagenes text-info">Fig.2. Linea de Tiempo de las Telecomunicaciones en Colombia.</figcaption>
+            </figure>
+            
+            <p class="Texto">
+            Las telecomunicaciones en Colombia inician con la telegrafía. En 1851 se otorgó privilegio para la primera línea telegráfica por el sistema de Bari o de Morse, en Panamá. La instalación se terminó el 12 de agosto de 1855. En 1864 había en Panamá diecisiete leguas de líneas telegráficas. El primero de noviembre de 1865, el presidente Manuel Murillo Toro inaugura la primera línea telegráfica entre Bogotá y Tres Esquinas (hoy conocida como Mosquera). En 1869, cuatro años más tarde, el gobierno asume la administración de la Empresa telegráfica (Compañía Anónima Colombiana de Telégrafos), de capital estatal y privado a cargo de la firma Davidson, Wolsey y Stilles, debido a incumplimientos contractuales. El Congreso sanciona este acto en 1870.
+            En 1875 la red de telégrafo enlazaba a Bogotá, Cali y Medellín. La Ley 115/1887 aprobó el contrato para el establecimiento del cable submarino entre Panamá, Buenaventura y Callao. A finales del siglo XIX la República estaba conectada con todos los países de Europa y América a través del cable submarino.
+            Luego de la guerra de los Mil Días y ante la destrucción de muchas redes, el gobierno privatiza el servicio. En 1909, por discrepancias nuevamente con el concesionario, Francisco J. Fernández  , asume la prestación del servicio. Se crea la Intendencia de Telégrafos, dependiente del Ministerio de Gobierno. En 1923 se crea el Ministerio de Correos y Telégrafos a través de la Ley 31/1923.
+            Los primero circuitos inalámbricos los da al servicio la United Fruit Company en Santa Marta, Cartagena y San Andrés. En 1919 se establece en Colombia la Marconi Wireless Telegraph Co.
+            En 1920 funcionaban estaciones inalámbricas en Barranquilla, Bogotá, Cali, Cúcuta, Bucaramanga, Medellín, Puerto Colombia, Santa Marta y Arauca. El 12 de abril de 1923 se dan al servicio los sistemas internacionales. En 1926 ingresa al país la empresa All América Cables. Se instala también la Compañía Telefónica Central y The Bogotá Telephone Company. En 1930 existían 900 oficinas telegráficas dependientes del Ministerio de Correos y Telégrafos.</p>
+        <h5 id="item-1-2">1.2) Historia de Comunicaciones RSA</h5>
+        <p class="Texto">Comnicaciones RSA ajdsfl jasd </p>
+        <figure class="figure">
+            <img src="/Img/Logo3.1.png" class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="PieImagenes text-info">Fig.3. Comunicaciones RSA.</figcaption>
+        </figure>
+        <h4 id="item-2">2) ¿Quienes Somos? ¿Que Hacemos?.</h4>
+        <h5 id="item-3-1">2.1) ¿Quienes Somos?</h5>
+        <p class="Texto">Somos una compañía de servicio y Soporte Tecnico, con crecimiento en calidad, innovación, excelencia y desarrollo humano de nuestros clientes, colaboradores, proveedores y socios. Consolidamos nuestro prestigio como una empresa líder en el mercado de las telecomunicaciones, siendo manifestado por la alta demanda de nuestros servicios.
+            Brindamos soluciones de telecomunicaciones y conectividad que permita el fomento del crecimiento de su empresa o de su Hogar con un alto compromiso de calidad funcional, donde nuestro pilar es el servicio hacia nuestros clientes.
+            Bienvenido a Comunicaciones RSA.</p>
+        <h5 id="item-3-2">2.2) ¿Que Hacemos?</h5>
+        <p class="Texto">Comunicaciones RSA es una empresa de encargada de brindar acceso alambrico e inalambrico a su empresa o a su hogar, encargados de implementar la esctrucra para grandes proyectos, Comunicacioens RSA no solo se encarga de implementacionses tambien prestamos soporte a nuestros Clientes de manera reomota.</p>
+        <h4 id="item-3">3) Mision-Vision</h4>
+        <h5 id="item-3-1">3.1) Mision</h5>
+        <p class="Texto">Comunicaciones RSA  somos una empresa de telecomunicaciones, creadores de soluciones tecnológicas. Nuestra razón de ser es acompañar y hacer crecer el negocio del cliente con la creación de proyectos que le llevarán al éxito en el sector de les telecomunicaciones. Nuestra misión en Alpha Telecom Solutions, por lo tanto, es la de construir negocios y ofrecer las soluciones más ventajosas en base a los objetivos de nuestros clientes mediante técnicas innovadoras y diferenciales en el ámbito de las telecomunicaciones.</p>
+        <h5 id="item-3-2">3.2) Vision</h5>
+        <p class="Texto">Nuestra empresa será líder en innovación, tecnología y soporte en nuestra región, teniendo cobertura del 100% de nuestro municipio y expandiéndonos a nuevos horizontes, siendo competitivos y brindando la mejor opción para suplir las necesidades de nuestros clientes</p>
+    </div>
+    <!-- CDN JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+<footer >
+    <div class="Containerpie text-center text-white " id="PiedePag">
+        <h1 class="CopyPiedePag"> Copyright © 2021 Comunicaciones RSA </h1  >
+    </div>
+</footer>
+
+</html>

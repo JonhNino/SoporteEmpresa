@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"><!--estandar de caracteres que se va a utlizar (ñ ch tildes o carateres especiales )   -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Compatible con que navegadores   -->
+    <meta name="viewport" content="width= , initial-scale=1.0"><!--acncho del dispositivo donde se puede visualizar la pag.  -->
+    <title><%=title %></title><!--El titulo de la pagina  -->
+    <link rel="stylesheet" type="txt/css" href="ChatBot.css">
+    <!--espacio para herramientas o plugins necesarios para esta pag   -->
+    <!-- BOOTSS 4 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- estilo google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    
+    <!-- CUstom CSS PErsonalizado -->
+    <link rel="stylesheet" href="/CSS/ChatBot.css"><!--Incluyo el arhivo css Home tipo de archivo stylesheet href ruta de archivo -->
+<!-- Animaciones -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style> 
+        .navbar {
+        font-family: 'Spicy Rice',cursive;
+    }
+    .containerChat {
+        font-family: 'Spicy Rice',cursive;
+    }
+    .titulo {
+        font-family: 'Spicy Rice',cursive;
+    }
+    
+    </style>
+</head>
+
+<body> <!--Aqui van los componentes de la Pg  -->
+    <div class="Containerh1 text-left  text-white " id="encabezado">
+        <h1 class="TituloEnca "> Nos encontramos a tu servicio 24/7. Contactanos al <i class="fas fa-phone"></i> 068-0000000 <i class="fab fa-whatsapp" id="Wpp"></i> 300-0000-000. Buscanos tambien en <i class="fab fa-facebook "id="Face"></i>  <i class="fab fa-twitter "id="Twit"></i> y <i class="fab fa-instagram"id="Inst"></i></h1  >
+            
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="selector">
+        <div class="container">
+            <a class="navbar-brand" href="/ComunicacionesRSA"><img id="Logo" src="/Img/Logo3.1.png">  Comunicaciones RSA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Index"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active"  href="/ChatBot"><i class="fab fa-telegram"></i> Chat Bot</a>
+                    </li>
+                </ul>
+                <span class="navbar-text " aria-current="">
+                    <i class="fas fa-user-ninja assistive-listening-systems"></i> Bienvenido a nuestra Empresa de Comunicaciones a tu Servicio
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <h3 class="titulo text-center text-danger"> Comunicaciones RSA 2021 </h3>
+    
+    <div class="containerChat p-5">
+        <div class="rowc">
+            <div class="col-sm-4 offset-md-4">
+                <div class="card animated flipInY">
+                    <div class="card-header   text-center">
+                        <h3><i class="fab fa-telegram  "></i>Chat Bot</h3>
+                    </div> 
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-control">
+                                <input class="form-control" type="text" placeholder="Numero de Celular">
+                            </div>
+                            <div class="form-group1">
+                                <textarea  class="form-control" name="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn text-black btn-primary btn-block">
+                                Enviar Mensaje
+                                </button>
+                            </div>
+                        </form>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<footer >
+    <div class="Containerpie text-center text-white " id="PiedePag">
+        <h1 class="CopyPiedePag"> Copyright © 2021 Comunicaciones RSA </h1  >
+    </div>
+</footer>
+
+</html>

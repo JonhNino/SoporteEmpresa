@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"><!--estandar de caracteres que se va a utlizar (ñ ch tildes o carateres especiales )   -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Compatible con que navegadores   -->
+    <meta name="viewport" content="width= , initial-scale=1.0"><!--acncho del dispositivo donde se puede visualizar la pag.  -->
+    <title><%=title %></title><!--El titulo de la pagina  -->
+    <link rel="stylesheet" type="txt/css" href="ChatBot.css">
+    <!--espacio para herramientas o plugins necesarios para esta pag   -->
+    <!-- BOOTSS 4 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- estilo google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    
+    <!-- CUstom CSS PErsonalizado -->
+    <link rel="stylesheet" href="/CSS/Login.css"><!--Incluyo el arhivo css Home tipo de archivo stylesheet href ruta de archivo -->
+<!-- Animaciones -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style> 
+        .navbar {
+        font-family: 'Spicy Rice',cursive;
+    }
+    .containerChat {
+        font-family: 'Spicy Rice',cursive;
+    }
+    .titulo {
+        font-family: 'Spicy Rice',cursive;
+    }
+    
+    </style>
+</head>
+
+<body> <!--Aqui van los componentes de la Pg  -->
+    <div class="Containerh1 text-left  text-white " id="encabezado">
+        <h1 class="TituloEnca "> Nos encontramos a tu servicio 24/7. Contactanos al <i class="fas fa-phone"></i> 068-0000000 <i class="fab fa-whatsapp" id="Wpp"></i> 300-0000-000. Buscanos tambien en <i class="fab fa-facebook "id="Face"></i>  <i class="fab fa-twitter "id="Twit"></i> y <i class="fab fa-instagram"id="Inst"></i></h1  >
+    </div>
+    <h3 class="titulo text-center text-white"> Comunicaciones RSA 2021 </h3>
+    <!-- Formulario -->
+    <div class="login-container" >
+        <div class="login-info-container">
+            <h1 class="title">Log in with</h1>
+            <div class="social-login">
+                <div class="social-login-element">
+                    <img src="/Img/Google.png"alt="Google-image">
+                    <span> Google </span>
+                </div>
+                <div class="social-login-element">
+                    <img src="/Img/Facebook.png"alt="Facebook-image">
+                    <span> Facebook </span>
+                </div>
+            </div>
+            <p>Or</p>
+                <form class="inputs-container">
+                    <input class="input" type="text" placeholder="Username">
+                    <input class="input" type="password" placeholder="Password">
+                    <p>Forgot Password? <span class="span"> Click here </span></p>
+                    <a class="btn" href="/Index">Login</a>
+                    <p>Don't have an account? <span class="span"> Sing Up</span></p>
+                </form>
+        </div>
+            <img class="image-container"src="/Img/Login1.jpeg" alt="login">      
+    </div>
+
+</body>
+
+<footer >
+    <div class="Containerpie text-center text-white " id="PiedePag">
+        <h1 class="CopyPiedePag"> Copyright © 2021 Comunicaciones RSA </h1  >
+    </div>
+</footer>
+
+</html>
